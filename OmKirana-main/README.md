@@ -1,0 +1,43 @@
+# OmKirana Backend 🚀
+
+OmKirana (My Own Shop Website) is a **scalable backend system** for a grocery e-commerce platform. It provides APIs for user management, products, carts, orders, payments, chat, and lending management. The backend is designed for **real-time operations, secure authentication, and smooth admin management**.
+
+---
+
+## 🔧 Backend Architecture & Tech Stack
+
+**Tech Stack:**
+
+- **Node.js & Express.js** – Server and routing  
+- **MongoDB & Mongoose** – Database  
+- **Redis** – Caching & real-time communication  
+- **Socket.IO** – Real-time chat  
+- **BullMQ** – Task queues  
+- **Cloudinary & Multer** – File uploads  
+- **Razorpay** – Payment integration  
+
+**Architecture Highlights:**
+
+- Login with OTP & JWT (with refresh token) ✅  
+- File Upload with Multer & Cloudinary ✅  
+- User & Admin Product Routes ✅  
+- Auto-complete & Fuzzy Search (Mongo Atlas Search) ✅  
+- Guest Cart + All Cart Routes ✅  
+- Checkout + Orders Routes ✅  
+- Razorpay Integration ✅  
+- Real-Time Chat (Redis + Socket.IO Adapter + BullMQ) ✅  
+- Lending Management ✅  
+
+---
+
+## 📦 Features
+
+- **Authentication:** OTP login, JWT authentication with refresh tokens  
+- **Product Management:** Admin and user routes for CRUD operations  
+- **Search:** Auto-complete and fuzzy search powered by MongoDB Atlas  
+- **Cart & Checkout:** Guest and authenticated cart support  
+- **Payment Integration:** Razorpay for secure transactions  
+- **Real-Time Chat:** Built with Socket.IO, Redis, and BullMQ  
+- **Lending Management:** Track active, closed, and lending orders  
+- **File Uploads:** Images uploaded to Cloudinary via Multer  
+- **Admin Panel:** Bull Board for monitoring background jobs  
